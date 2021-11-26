@@ -66,7 +66,8 @@ function makeWebsite() {
   link1.textContent = "USDA guide to home canning ";
   link2.textContent = "Oregon State pickling guide";
   link1.setAttribute("href", "https://nchfp.uga.edu/publications/publications_usda.html");
-  link2.setAttribute("href", "https://catalog.extension.oregonstate.edu/pnw355");
+  //link2.setAttribute("href", "https://catalog.extension.oregonstate.edu/pnw355");
+  link2.href = "https://catalog.extension.oregonstate.edu/pnw355"; //wow this is shorter
 
   const linkBreak1 = document.createElement("br");
   const linkBreak2 = document.createElement("br");
